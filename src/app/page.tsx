@@ -71,12 +71,12 @@ export default function Home() {
           <li>Bootcamp students</li>
           <li>
             Anyone learning a new frontend framework / tool 
-            and doesn`&apos`t want to spend time making an API
+            and doesn&apos;t want to spend time making an API
           </li>
         </ul>
         <span>Plug APIs can be useful for anyone who wants to go deeper on the frontend with api integration, state management etc... 
-          but hasn`&apos`t yet learned to create backends or wants a ready made api to practice with.
-          This allows you to get away from `&quot`fake data`&quot` json or js files without setting up cloud services (like Supabase, Firebase, AWS, MongoDB etc...) or 
+          but hasn&apos;t yet learned to create backends or wants a ready made api to practice with.
+          This allows you to get away from &quot;fake data&quot; json or js files without setting up cloud services (like Supabase, Firebase, AWS, MongoDB etc...) or 
           creating your own APIs. Of course you should eventually do those things too!
         </span>
       </section>
