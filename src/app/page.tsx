@@ -2,72 +2,90 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">        
-        <Image
-          src={"/plug-hero-image.svg"}
-          alt="Plug and socket image with title Plug"
-          height={500}
-          width={500}
-          priority={true}
-          className="w-2/3"
-        />
-       <h1>Plug</h1>
-       <span>
-        Real APIs. Zero Setup. Just Plug In. 
-        A growing collection of local-first APIs
-        for frontend devs to practice with real
-        backends—without boilerplate.
-       </span>
+    <div className="flex flex-col items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        
+        <div className="mt-10 w-full">
+          <Image
+            src={"/plug-hero-image.svg"}
+            alt="Plug and socket image with title Plug"
+            height={800}
+            width={800}
+            priority={true}
+          />
+        </div>
 
-      <h2>What is Plug?</h2>
-      <ul>
-        <li>Simple to intermediate APIs</li>
-        <li>Runs locally</li>
-        <li>No clooud setup required for most (though some require it)</li>
-        <li>Built for frontend devs to get practice integrating clients with apis</li>
-      </ul>
+      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start mt-4 max-w-[1200px]">
+       
+       
+       <section className="flex flex-col items-end sm:gap-y-10 p-4 ">
+        <span className="sm:text-3xl text-2xl font-bold sm:w-1/2">
+          Plug is a growing collection of APIs which
+          frontend devs can use to learn and practice integrating their apps 
+          with backends without worrying about the boilerplate.
+        </span>
+        <ul className="w-1/2 p-4 ">
+          <li>Simple to intermediate APIs</li>
+          <li>Run locally</li>
+          <li>No cloud setup required for most of the APIs (though some will require this)</li>
+        </ul>
+       </section>
 
-      <h2>Why use Plug?</h2>
-      <ul>
-        <li>Easy set up</li>
-        <li>Real CRUD patterns</li>
-        <li>Resettable state</li>
-        <li>When you are ready you can refactor scale the api</li>
-        <li>Level up with Supabase, Mongo, etc...</li>
-      </ul>
+      <section className="flex flex-col items-end p-4 w-full">
+        <h2 className="text-xl font-bold w-1/2">Why use Plug?</h2>
+        <ul className="w-1/2 p-4">
+          <li>Easy set up</li>
+          <li>Real CRUD patterns not just GET from a public api</li>
+          <li>Resettable state</li>
+          <li>When you are ready to step into backend work you can refactor, customize, scale these APIs and make them your own.</li>
+        </ul>
+      </section>
 
-      <h2>Available APIs</h2>
-      <p>Coming soon</p>
-      <ul>
-        <li>Note taker</li>
-        <li>book reservation</li>
-        <li>cinema reservation</li>
-      </ul>
 
-      <h2>How to use Plug?</h2>
-      <span>
-        In most cases you can simply clone the repo you want, 
-        run the install script and start the api. 
-        Your job is to build the front end however you want. 
-        More advanced apis may require authentication, creating cloud service account and .env variables.
-      </span>
+      <section className="flex flex-col items-end p-4 w-full">
+        <span className="w-1/2">
+          <h2 className="text-xl font-bold">Available APIs</h2>
+          <p  className="text-sm w-1/2">This project has just begun...Coming soon...</p>
+        </span>        
+        <ul className="w-1/2 p-4">
+          <li>Note taker</li>
+          <li>book reservation</li>
+          <li>cinema reservation</li>
+        </ul>
+      </section>
 
-      <h2>Whos is this for?</h2>
-      <ul>
-        <li>People learning front end development</li>
-        <li>Bootcamp students</li>
-      </ul>
-      <span>Anyone who wants to go deeper on the front end with api integration, state management etc... 
-        but hasn't yet learned to create backends or wants a ready made api to practice with.
-        This allows you to get away from 'fake data' json or js files without setting up cloud services (like Supabase, Firebase, etc..) or 
-        creating your own APIs. Of course you should eventually do those things!
-      </span>
+      <section className="max-w-[600px] p-4">
+        <h2 className="text-3xl font-bold">How to use Plug?</h2>
+        <span>
+          In most cases you can simply clone the repo you want, 
+          run the install script and start the API. 
+          Your job is to build the frontend however you want with whatever tools you are learning.
+          More advanced APIs may require authentication, creating cloud service account and .env variables.
+        </span>
+      </section>
+
+
+      <section className="p-4 ">
+        <h2 className="text-3xl font-bold">Who is this for?</h2>
+        <ul className="p-4">
+          <li>People learning front end development</li>
+          <li>Bootcamp students</li>
+          <li>
+            Anyone learning a new frontend framework / tool 
+            and doesn't want to spend time making an API
+          </li>
+        </ul>
+        <span>Plug APIs can be useful for anyone who wants to go deeper on the frontend with api integration, state management etc... 
+          but hasn't yet learned to create backends or wants a ready made api to practice with.
+          This allows you to get away from 'fake data' json or js files without setting up cloud services (like Supabase, Firebase, AWS, MongoDB etc...) or 
+          creating your own APIs. Of course you should eventually do those things too!
+        </span>
+      </section>
+
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex sm:gap-[80px] gap-3 flex-wrap items-center justify-center text-amber-600 mt-10">
       <p>© Plug since 2025</p>
-      <p>gihub link here</p>
-      <p>license here</p>
+      <a href="https://github.com/MattRueter">Made by Matt Rueter</a>
+      <p>This project is licensed under the MIT License.</p>
       </footer>
     </div>
   );
