@@ -23,20 +23,16 @@ export default function Home() {
           frontend devs can use to learn and practice integrating their apps 
           with backends without worrying about the boilerplate.
         </span>
-        <ul className="w-1/2 p-4 ">
-          <li>Simple to intermediate APIs</li>
-          <li>Run locally</li>
-          <li>No cloud setup required for most of the APIs (though some will require this)</li>
-        </ul>
+
        </section>
 
       <section className="flex flex-col items-end p-4 w-full">
         <h2 className="text-xl font-bold w-1/2">Why use Plug?</h2>
         <ul className="w-1/2 p-4">
+          <li>Free</li>
           <li>Easy set up</li>
           <li>Real CRUD patterns not just GET from a public api</li>
-          <li>Resettable state</li>
-          <li>When you are ready to step into backend work you can refactor, customize, scale these APIs and make them your own.</li>
+          <li>Practice reading API documentation</li>
         </ul>
       </section>
 
@@ -59,7 +55,8 @@ export default function Home() {
           In most cases you can simply clone the repo you want, 
           run the install script and start the API. 
           Your job is to build the frontend however you want with whatever tools you are learning.
-          More advanced APIs may require authentication, creating cloud service account and .env variables.
+          More advanced APIs may require authentication, creating cloud service account and .env variables. 
+          As you advance you can step into the backend code and refactor, further develop or customize these APIs however you want.
         </span>
       </section>
 
@@ -75,7 +72,7 @@ export default function Home() {
           </li>
         </ul>
         <span>Plug APIs can be useful for anyone who wants to go deeper on the frontend with api integration, state management etc... 
-          but hasn&apos;t yet learned to create backends or wants a ready made api to practice with.
+          but hasn&apos;t yet learned basic backend development.
           This allows you to get away from &quot;fake data&quot; json or js files without setting up cloud services (like Supabase, Firebase, AWS, MongoDB etc...) or 
           creating your own APIs. Of course you should eventually do those things too!
         </span>
