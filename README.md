@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plug
+This started out as a place for me to play around with new languages, frameworks, and tools. The idea being to make simple APIs (e.g. tutorial style todo lists) in order to get a feel for these technologies and then move on. But then I thought I could and should make the effort to make this a little more valuable. I remembered the very early days when I was learning web development and got to the point of working with APIs and thinking it would be nice to find some which exposed more then GET endpoints. This gave me the idea of creating repos which would be beginner friendly for frontend devs to install and consume with the aim of beign able to make CRUD front ends that better mimic something they may make on teams eventually. I suppose it is targeted at those who are somewhere between using static json or js files for 'fake data' and not quite ready to learn backend development.
 
-## Getting Started
+The APIs in this are at the moment mostly going to be "local-first" so that users can simply clone them and run the install / run scripts. If data is persisted it will be in a local file usually with a script to `clear`the file and start over. As much as possible I'd like users to be able to focus on the front-ends they want to build and get some practice reading docs.
 
-First, run the development server:
+## This is a playground for me as well
+Something worth keeping in mind is that in most cases the repos in Plug are places for me (and perhaps other contributors) to learn and mess around with new tools. So given that and the fact that there is a focus on simplicity, the APIs in this project may not always follow every best practice...But, they should still work for students / hobbiest on the frontend.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Encourage learning
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Eventually I'd like to add a bit more guided learning. For example
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- clearly label each API based on difficulty level
+- provide front end challenges
+- encourage debugging or modifying code in the API
+- and hopefully more...
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Obviously anyone working on the frontend will probably want to get some experience on the backend. What I like about this project is beginner or intermediate students can step into the backend as much or as little as they like. They can customize, build on top of, or break their clones of these repos freely.
