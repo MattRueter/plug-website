@@ -85,7 +85,15 @@ export default function Home() {
       <footer className="row-start-3 flex sm:gap-[80px] gap-3 flex-wrap items-center justify-center text-amber-600 mt-10">
       <p>© Plug since 2025</p>
       <a href="https://github.com/MattRueter">Made by Matt Rueter</a>
-      <p>This project is licensed under the MIT License.</p>
+      <p>
+        This project is licensed under the 
+        <a 
+          className="ml-1 px-1 bg-sky-100"
+          href="https://github.com/MattRueter/plug-website/blob/main/LICENSE"
+          >
+             MIT License.
+          </a>
+      </p>
       </footer>
     </div>
   );
