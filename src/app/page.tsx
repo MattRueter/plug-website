@@ -19,7 +19,7 @@ export default function Home() {
        
        <section className="flex flex-col items-end sm:gap-y-10 p-4 ">
         <span className="sm:text-3xl text-2xl font-bold sm:w-1/2">
-          Plug is a growing collection of "toy" APIs which 
+          Plug is a growing collection of &quot;toy&quot; APIs which 
           frontend devs can use to learn and practice integrating apps
           with backends without worrying about the boilerplate.
         </span>
