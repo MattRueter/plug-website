@@ -19,8 +19,8 @@ export default function Home() {
        
        <section className="flex flex-col items-end sm:gap-y-10 p-4 ">
         <span className="sm:text-3xl text-2xl font-bold sm:w-1/2">
-          Plug is a growing collection of APIs which
-          frontend devs can use to learn and practice integrating their apps 
+          Plug is a growing collection of "toy" APIs which 
+          frontend devs can use to learn and practice integrating apps
           with backends without worrying about the boilerplate.
         </span>
 
@@ -40,13 +40,22 @@ export default function Home() {
       <section className="flex flex-col items-end p-4 w-full">
         <span className="w-1/2">
           <h2 className="text-xl font-bold">Available APIs</h2>
-          <p  className="text-sm w-1/2">This project has just begun...Coming soon...</p>
-        </span>        
-        <ul className="w-1/2 p-4">
-          <li>Note taker</li>
-          <li>book reservation</li>
-          <li>cinema reservation</li>
-        </ul>
+          <p  className="text-sm w-1/2">This project has just begun so check back every once in a while.</p>
+        </span>
+
+        <div className="w-1/2 p-4">
+          <ul className="">
+            <li><a className= "text-amber-600" href="https://github.com/Plug-org/plug-notes-api" target="_blank">notes api</a></li>
+          </ul>
+
+          <p className="text-sm mt-2">coming soon...</p>
+          <ul className="text-slate-400">
+            <li>book reservation</li>
+            <li>cinema reservation</li>
+          </ul>
+
+        </div>
+
       </section>
 
       <section className="max-w-[600px] p-4">
@@ -76,6 +85,14 @@ export default function Home() {
           This allows you to get away from &quot;fake data&quot; json or js files without setting up cloud services (like Supabase, Firebase, AWS, MongoDB etc...) or 
           creating your own APIs. Of course you should eventually do those things too!
         </span>
+        <p className="mt-4 text-lg font-medium flex gap-2 items-center">
+          Read more 
+          <a className="text-sky-400" href="https://github.com/Plug-org#plug" target="_blank">here</a>
+        </p>
+        <p className="mt-4 text-lg font-medium flex gap-2 items-center">
+          Visit 
+          <a className="text-sky-400" href="https://github.com/Plug-org/plug-notes-api" target="_blank">notes api repo</a>
+        </p>
       </section>
 
       </main>
@@ -85,7 +102,7 @@ export default function Home() {
       <p>
         This project is licensed under the 
         <a 
-          className="ml-1 px-1 bg-sky-100"
+          className="ml-1"
           href="https://github.com/MattRueter/plug-website/blob/main/LICENSE"
           >
              MIT License.
