@@ -46,6 +46,7 @@ export default function Home() {
         <div className="w-1/2 p-4">
           <ul className="">
             <li><a className= "text-amber-600" href="https://github.com/Plug-org/plug-notes-api" target="_blank">notes api</a></li>
+            <li><a className= "text-amber-600" href="https://github.com/Plug-org/plug-bowling-api" target="_blank">bowling api</a></li>
           </ul>
 
           <p className="text-sm mt-2">coming soon...</p>
@@ -64,7 +65,7 @@ export default function Home() {
           In most cases you can simply clone the repo you want, 
           run the install script and start the API. 
           Your job is to build the frontend however you want with whatever tools you are learning.
-          More advanced APIs may require authentication, creating cloud service account and .env variables. 
+          More advanced APIs may require authentication, creating cloud service accounts and .env variables. 
           As you advance you can step into the backend code and refactor, further develop or customize these APIs however you want.
         </span>
       </section>
@@ -87,11 +88,15 @@ export default function Home() {
         </span>
         <p className="mt-4 text-lg font-medium flex gap-2 items-center">
           Read more 
-          <a className="text-sky-400" href="https://github.com/Plug-org#plug" target="_blank">here</a>
+          <a className="text-sky-400" href="https://github.com/Plug-org" target="_blank">here</a>
         </p>
         <p className="mt-4 text-lg font-medium flex gap-2 items-center">
           Visit 
           <a className="text-sky-400" href="https://github.com/Plug-org/plug-notes-api" target="_blank">notes api repo</a>
+        </p>
+                <p className="mt-4 text-lg font-medium flex gap-2 items-center">
+          Visit 
+          <a className="text-sky-400" href="https://github.com/Plug-org/plug-bowling-api" target="_blank">bowling api repo</a>
         </p>
       </section>
 
